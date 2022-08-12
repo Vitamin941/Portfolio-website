@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body class="flex flex-col justify-center">
+    <div class="flex justify-center items-center h-screen bg-neutral-800">
+        <p class="font-bold font-mono italic text-3xl text-center text-white">
+            Hello! My name is <span class="text-red-300">Vitaliy Biruyckov</span>  
+            <br> I am a <span class="text-green-200 hover:underline">java developer</span>
+        </p>
+    </div>
+    <div class="h-96 bg-neutral-300 flex flex-col" id="colnet">
+        <div class="flex flex-row justify-around">
+            <div>
+                <p class="pt-8 font-mono text-3xl text-zinc-700">
+                    ColNet
+                </p>    
+                <p class="font-mono text-zinc-700 text-xl">Colnet is a framework</p>
+            </div>
+            <div class="w-fit">
+                <div class="flex justify-center">
+                    <img class="pt-8 self-center" src="/public/images/TabbyDoc.png" 
+                    alt="TabbyDoc group picture">
+                </div>
+                <p class="text-base text-center font-mono">
+                    Tabular Document Analysis Research Group <br> at ISDCT SB RAS
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="h-96 bg-neutral-700 flex flex-row justify-around">
+        <div>
+            <div class="flex justify-center">
+                <img class="pt-8 w-64 h-48" src="/public/images/spring.png" alt="Spring logo">
+            </div>
+            <p class="text-base text-center font-mono text-zinc-100 w-80">Spring boot is the most popular web java framework</p>
+        </div>
+        <div>
+            <p class="text-zinc-100 pt-8 font-mono text-3xl text-right">
+                CRUD (Spring-REST)
+            </p>
+            <p class="font-mono text-zinc-100 text-xl text-right">
+                A basic CRUD application of one entity <br>
+                 with Spring boot
+            </p>
+        </div>
+    </div>
+</body>
+</html>
